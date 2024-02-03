@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS activities (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    activity_date DATE,
+    activity_type TEXT,
+    distance INTEGER, -- in meters
+    duration INTEGER, -- in minutes
+    intensity TEXT
+);
